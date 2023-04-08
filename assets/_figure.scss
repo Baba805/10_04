@@ -1,0 +1,25 @@
+#figure{
+    margin-top: 100px;
+}
+.cards{
+    i{
+        line-height: 0;
+    font-size: 70px;
+    color: #1089ff;
+    }
+    h3{
+        font-size: 20px;
+    color: #000;
+    font-family: $h-font;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 10px;
+    
+    }
+    p{
+        line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 1.1rem;
+    }
+}

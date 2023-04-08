@@ -1,0 +1,36 @@
+
+body{
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+}
+#first {
+    margin-top: 30px;
+
+}
+
+.sanfrancisco {
+    display: flex;
+
+    .icon_div {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        // position: relative;
+        background: #1089ff;
+        color: white;
+        text-align: center;
+    }
+
+    .first_items {
+        h4 {
+            font-size: 1.2rem;
+            color: #000;
+            margin-bottom: 0;
+            font-family: $h-font;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+}

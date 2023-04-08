@@ -1,0 +1,17 @@
+.carousel{
+    margin-top: 120px;
+}
+
+.carousel1_items{
+    z-index: 10;
+    h2{
+        font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.2;
+    }
+
+    button{
+       @include button;
+    }
+}

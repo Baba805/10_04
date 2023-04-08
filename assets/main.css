@@ -1,0 +1,159 @@
+body {
+  line-height: 1.7;
+  color: gray;
+  font-weight: 300;
+}
+
+#first {
+  margin-top: 30px;
+}
+
+.sanfrancisco {
+  display: flex;
+}
+.sanfrancisco .icon_div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #1089ff;
+  color: white;
+  text-align: center;
+}
+.sanfrancisco .first_items h4 {
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 0;
+  font-family: "Oswald", sans-serif;
+}
+.sanfrancisco .first_items p {
+  font-size: 1rem;
+}
+
+body {
+  height: 200vh;
+}
+
+nav {
+  background: #1089ff;
+  font-family: "Oswald", sans-serif;
+  position: sticky;
+  width: 100%;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+nav ul {
+  display: flex;
+  margin: 0px auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 0.05rem;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+}
+
+.carousel {
+  margin-top: 120px;
+}
+
+.carousel1_items {
+  z-index: 10;
+}
+.carousel1_items h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.2;
+}
+.carousel1_items button {
+  font-size: 14px;
+  letter-spacing: 0.2rem;
+  background-color: #1089ff;
+  border-color: #1089ff;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Oswald", sans-serif;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#about_us {
+  margin-top: 100px;
+}
+
+.about_us_items h5 {
+  font-family: "Dancing Script", sans-serif;
+  color: #1089ff;
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+.about_us_items h2 {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.about_us_items hr {
+  width: 70px;
+  height: 5px;
+  color: blue;
+}
+.about_us_items p {
+  line-height: 1.7;
+  color: gray;
+  font-weight: 300;
+  font-size: 1.1rem;
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about_us_items button {
+  font-size: 14px;
+  letter-spacing: 0.2rem;
+  background-color: #1089ff;
+  border-color: #1089ff;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Oswald", sans-serif;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#figure {
+  margin-top: 100px;
+}
+
+.cards i {
+  line-height: 0;
+  font-size: 70px;
+  color: #1089ff;
+}
+.cards h3 {
+  font-size: 20px;
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+.cards p {
+  line-height: 1.7;
+  color: gray;
+  font-weight: 300;
+  font-size: 1.1rem;
+}/*# sourceMappingURL=main.css.map */
