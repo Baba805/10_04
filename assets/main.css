@@ -365,13 +365,37 @@ cardd1 {
   color: blue;
   margin: 0 auto;
 }
-#testimonials .row {
+#testimonials .card1 .human {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 10px;
 }
-#testimonials .row .comments {
+#testimonials .card1 .human img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+#testimonials .card1 .human h4 {
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 4px;
+}
+#testimonials .card1 .human p {
+  font-size: 14px;
+  color: #ccc;
+}
+#testimonials .card1 .comments {
+  font-style: italic;
   border: 1px solid #ccc;
   padding: 30px;
   border-radius: 4px;
   font-size: 16px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 40px;
+}
+footer p {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
