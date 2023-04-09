@@ -1,0 +1,75 @@
+#book {
+    .items {
+        text-align: center;
+
+        p {
+            line-height: 1.7;
+            color: #1089ff;
+            font-weight: 300;
+            font-size: 1.1rem;
+            font-family: "Dancing Script", sans-serif;
+        }
+
+        h3 {
+            color: #000;
+            font-size: 1.75rem;
+            font-weight: 500;
+            line-height: 1.2;
+            font-family: $h-font;
+        }
+    }
+
+}
+
+// .form1{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-around;
+//     align-items: center;
+//     width: 200px;
+//     text-align: center;
+// }
+.row {
+    display: flex;
+    justify-content: space-around;
+
+    .form1 {
+        label {
+            display: block;
+            text-align: center;
+
+        }
+
+        input {
+            display: block;
+
+        }
+
+    }
+
+    .form2 {
+        width: 100%;
+        margin-top: 20px;
+
+        label {
+            display: block;
+        }
+
+        select {
+            width: 100%;
+        }
+    }
+    button{
+        // text-transform: uppercase;
+    font-size: 14px;
+    // letter-spacing: .2rem;
+    font-family: $h-font;
+    padding: 0.3rem 3rem;
+    color: #fff;
+    background-color: #1089ff;
+    border-color: #1089ff;
+    border-radius: 0.25rem;
+    width: 30%;
+
+    }
+}

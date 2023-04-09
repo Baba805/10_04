@@ -156,4 +156,222 @@ nav ul li a {
   color: gray;
   font-weight: 300;
   font-size: 1.1rem;
+}
+
+#statistic {
+  background-image: url("https://preview.colorlib.com/theme/waterboat/images/hero_1.jpg.webp");
+  margin-top: 100px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 300px;
+}
+
+.statistic_card {
+  text-align: center;
+  margin-top: 10%;
+}
+.statistic_card h2 {
+  color: white;
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.statistic_card p {
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.destination_items {
+  text-align: center;
+  margin-top: 100px;
+}
+.destination_items p {
+  line-height: 1.7;
+  color: #1089ff;
+  font-weight: 300;
+  font-size: 1.1rem;
+  font-family: "Dancing Script", sans-serif;
+}
+.destination_items h3 {
+  color: #000;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.destination_items hr {
+  width: 130px;
+  height: 10px;
+  font-size: 10px;
+  color: blue;
+  margin: 0 auto;
+}
+
+.cardlar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 30px 0px;
+}
+.cardlar h5 {
+  color: #000;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.cardlar p {
+  display: inline-block;
+}
+
+cardd1 {
+  margin-bottom: 30px !important;
+}
+
+#book .items {
+  text-align: center;
+}
+#book .items p {
+  line-height: 1.7;
+  color: #1089ff;
+  font-weight: 300;
+  font-size: 1.1rem;
+  font-family: "Dancing Script", sans-serif;
+}
+#book .items h3 {
+  color: #000;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: "Oswald", sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.row .form1 label {
+  display: block;
+  text-align: center;
+}
+.row .form1 input {
+  display: block;
+}
+.row .form2 {
+  width: 100%;
+  margin-top: 20px;
+}
+.row .form2 label {
+  display: block;
+}
+.row .form2 select {
+  width: 100%;
+}
+.row button {
+  font-size: 14px;
+  font-family: "Oswald", sans-serif;
+  padding: 0.3rem 3rem;
+  color: #fff;
+  background-color: #1089ff;
+  border-color: #1089ff;
+  border-radius: 0.25rem;
+  width: 30%;
+}
+
+#teams .teams_items {
+  text-align: center;
+  margin-top: 100px;
+}
+#teams .teams_items p {
+  color: #1089ff;
+  font-family: "Dancing Script", sans-serif;
+}
+#teams .teams_items h3 {
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+#teams .teams_items hr {
+  width: 130px;
+  height: 10px;
+  font-size: 10px;
+  color: blue;
+  margin: 0 auto;
+}
+#teams .cards .card1 {
+  position: relative;
+  overflow: hidden;
+}
+#teams .cards .card1 .icon {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 9%;
+  bottom: 30%;
+}
+#teams .cards .card1 .icon .icon1 {
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+}
+#teams .cards .card1 .icon .icon1 i {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+#teams .cards .card1 .items {
+  text-align: center;
+}
+#teams .cards .card1 .items h3 {
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+#teams .cards .card1 .items p {
+  color: #1089ff;
+  font-weight: 300;
+  font-size: 1.1rem;
+  font-family: "Mulish", sans-serif;
+}
+
+#testimonials .testimonials_items {
+  text-align: center;
+  margin-top: 100px;
+}
+#testimonials .testimonials_items p {
+  color: #1089ff;
+  font-family: "Dancing Script", sans-serif;
+}
+#testimonials .testimonials_items h3 {
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+#testimonials .testimonials_items hr {
+  width: 130px;
+  height: 10px;
+  font-size: 10px;
+  color: blue;
+  margin: 0 auto;
+}
+#testimonials .row {
+  display: flex;
+  justify-content: space-between;
+}
+#testimonials .row .comments {
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 4px;
+  font-size: 16px;
 }/*# sourceMappingURL=main.css.map */

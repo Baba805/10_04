@@ -1,0 +1,38 @@
+#statistic {
+    background-image: url("https://preview.colorlib.com/theme/waterboat/images/hero_1.jpg.webp");
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 300px;
+    // position: relative;
+
+    // &::after{
+    //     content: "";
+    //     background-color: blueviolet;
+    //     position: absolute;
+    //     left: 0;
+    //     right: 0;
+    //     top: 0;
+    //     z-index: 100;
+    //     width: 100%;
+    // }
+}
+
+.statistic_card{
+    text-align: center;
+    margin-top: 10%;
+
+    h2{
+        color: white;
+        font-size: 50px;
+        font-family: $h-font;
+        font-weight: 500;
+    line-height: 1.2;
+    }
+    p{
+        color: #fff;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
